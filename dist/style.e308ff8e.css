@@ -1,0 +1,215 @@
+body{
+	margin:0;
+}
+*{
+	box-sizing: border-box;
+}
+#wrapper{
+	display: flex;
+}
+#logo{
+	height:60px;	
+}
+#control-panel{
+	flex: 0 0 20%;
+	background-color: #5e98f0;
+	height: 100vh;
+	box-shadow: 1px 0px 10px 1px silver;
+	position: sticky;
+	top:0;
+	padding-left:15px;
+	padding-right:15px;
+	max-width: 20%;
+	overflow-y: scroll;
+
+}
+#artboard{
+	flex: 0 0 80%;
+	background-color: #f0ece6;
+	padding:10px 20px;
+}
+#website{
+	background-color: white;
+	border:1px solid silver;
+	min-height: 80vh;
+}
+#artboard h3{
+	color:#444;
+	font-family: Verdana;
+}
+#elements{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+#elements h2{
+	font-size: 20px;
+	color:white;
+	padding:0 15px;
+	font-family: verdana;
+	margin:0;
+	margin-bottom:25px;
+}
+#css h4{
+	font-size: 20px;
+	color:white;
+
+	font-family: verdana;
+	margin:0;
+	margin-bottom:25px;
+}
+.tree h2{
+	font-size: 20px;
+	color:white;
+	
+	font-family: verdana;
+	margin:0;
+	margin-bottom:25px;
+}
+#elements .element{
+	
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom: 15px;
+}
+#elements .element button{
+	min-width: 60%;
+	display: block;
+
+	background-color: white;
+	border: none;
+	padding: 20px;
+	font-size: 15px;
+	background-color: white;
+	color: #3b75cd;
+	box-shadow: 0px 0px 5px 1px #888;
+	border-radius: 5px;
+	outline:none !important;
+}
+#website div{
+	border:1px solid grey;
+	min-height: 40px;
+	padding:20px 0;
+}
+#website section{
+	border:1px solid skyblue;
+	min-height: 40px;
+	padding:20px 0;
+}
+
+#tree ul{
+	list-style: none;
+	color: rebeccapurple;
+	background-color: white;
+	font-weight: 500;
+	font-family: sans-serif;
+	padding: 10px;
+	text-transform: lowercase;
+}
+.delete{
+	background-color: crimson;
+	color: white;
+	border: 0;
+	margin: 0 5px;
+	border-radius: 6px;
+	font-size: 13px;
+}
+.stylist{
+	background-color: purple;
+	color: white;
+	border: 0;
+	margin: 0 5px;
+	border-radius: 6px;
+	font-size: 13px;
+}
+.text{
+	background-color: deepskyblue;
+	color: white;
+	border: 0;
+	margin: 0 5px;
+	border-radius: 6px;
+	font-size: 13px;
+}
+.attrs{
+	background-color: forestgreen;
+	color: white;
+	border: 0;
+	margin: 0 5px;
+	border-radius: 6px;
+	font-size: 13px;
+}
+#tree li{
+	margin:5px 0;
+}
+#tree>ul{
+	overflow-x: scroll;
+
+}
+#tree li>ul{
+	padding:0px 20px;
+	}
+#styling #style_editor{
+	width: 100%;
+	border: 0;
+	height: 150px;
+	border-radius: 10px;
+	margin-bottom:15px;	
+	outline:none;
+	padding:10px;
+}
+.styler h2{
+	font-size: 20px;
+	color:white;
+	font-family: verdana;
+	margin:0;
+	margin-bottom:25px;
+}
+.styleButton{
+	border: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: magenta;
+    color: white;
+    outline:none !important;
+}
+#css textarea{
+		width: 100%;
+	border: 0;
+	height: 150px;
+	border-radius: 10px;
+	margin-bottom:15px;	
+	outline:none;
+	padding:10px;
+}
+#css button{
+	border: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: magenta;
+    color: white;
+    outline:none !important;
+}
+.actions{
+	width:150px;
+}
+#download{
+	background-color: #ffeb00;
+    color: #584b4b;
+    border: 0;
+    padding: 6px 12px;
+    font-size: 15px;
+    float: right;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px #e1ded9;
+    outline:none !important;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
